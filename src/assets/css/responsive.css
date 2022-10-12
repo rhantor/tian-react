@@ -1,0 +1,47 @@
+@media only screen and (max-width:1199px) {
+	.hero_area .icon_1 {
+		left: 20px;
+	}
+	.hero_area .icon_3 {
+		left: 32px;
+	}	
+	.blog_meta li:first-child {
+		padding-right: 12px;
+	}
+	.blog_meta li {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width:991px) {
+	.main-header {
+		width: 100%;
+		display: flex;
+		position: relative;
+	}
+	#mobile_menu{
+		display: block;
+	} 	
+	#menu-wrap{
+		display: none;
+	}
+	.hero_images{
+		display: none;
+	}
+	.about_title {
+		margin-top: 45px;
+	}
+	.about_content{
+		padding-left: 12px;
+	}
+	.single_counter{
+		margin-bottom: 34px;
+	}
+	.logo-footer,
+	.footer p{
+		margin-bottom: 20px;
+	}
+	.skill_content{
+		margin-bottom: 30px;
+	}
+}
